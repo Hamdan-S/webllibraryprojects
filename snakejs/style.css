@@ -1,0 +1,47 @@
+#gameContainer{
+    text-align: center;
+}
+#gameBoard{
+    border: 5px solid;
+}
+#scoreText{
+    font-family: "Permanent Marker", cursive;
+    color:rgb(255, 255, 255);
+    font-size: 100px;
+}
+#resetBtn{
+    background-color: black;
+    color: aliceblue;
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+h1{
+    color: rgba(6, 220, 70, 0.74);
+}
+
+body{
+    background-color: rgb(23, 23, 23);
+}
+
+#scoreText {
+    font-family:arial black;
+    font-size:70px;
+    background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: move 200s linear infinite;
+  }
+
+  
+@keyframes move {
+    to {
+      background-position: 4500vh;
+    }
+  }
