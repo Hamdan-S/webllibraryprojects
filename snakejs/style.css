@@ -29,8 +29,8 @@ body{
     background-color: rgb(23, 23, 23);
 }
 
-#scoreText {
-    font-family:arial black;
+#highScore {
+    font-family: "Permanent Marker", cursive;
     font-size:70px;
     background-image: 
     linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
@@ -45,3 +45,9 @@ body{
       background-position: 4500vh;
     }
   }
+
+p{
+    color: aliceblue;
+    text-align: center;
+}
+
